@@ -1,0 +1,10 @@
+// let yourName = prompt("nhap ten: ");
+// let yourOld = prompt("Nhap nam sinh cua ban: ");
+// alert(yourName);
+// alert(2020-yourOld);
+let a = parseInt(prompt("Nhap so a: "));
+let b = parseInt(prompt("Nhap so b: "));
+alert(a+b);
+alert(a-b);
+alert(a*b);
+alert(a/b);

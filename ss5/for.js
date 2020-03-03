@@ -114,9 +114,16 @@
 // }
 // console.log(n);
 
-let pass = prompt("Nhap mat khau: ");
-while(!(pass.length >8 && pass.indexOf("@")>=0)){
-    pass = prompt("Nhap lai mat khau: ");
+// let pass = prompt("Nhap mat khau: ");
+// while(!(pass.length >8 && pass.indexOf("@")>=0)){
+//     pass = prompt("Nhap lai mat khau: ");
+// }
+// console.log(pass);
+for(let i=2;i<=10;i++)
+{
+    if(i%2===1)
+    {
+        break;
+    }
+    console.log(i);
 }
-console.log(pass);
-

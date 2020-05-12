@@ -1,0 +1,23 @@
+find tra ra item dau tien thoa man trong mang // neu mang ko co item thoa man tra ra undifined
+find index tra ra chi so cua item thoa man trong mang // tra ra -1 neu khong tim thay
+filter tra ra mang cac item thoa man dieu kien // tra ra mang rong neu khong co
+every kiem tra tat ca item co thoa man dieu kien hay khong // tra ra true false
+some kiem tra neu co it nhat 1 phan tu thoa man dieu kien // tra ra true false
+sort 
+
+HTML
+cấu trúc code dạng thẻ (tag)
+2 loại thẻ theo cặp - thẻ mở <body> <h1>
+		    - thẻ đóng </body> </h1>
+		- thẻ tự đóng (thẻ rỗng) <img/>
+các thẻ dạng nhánh lồng nhau
+hmtl là cha gián tiếp của head
+			html
+	head				body
+title			h1, a
+Mỗi thẻ html có 1 file riêng được áp dụng cho tất cả nội dung con mà thẻ đó chứa
+Thuộc tính của thẻ 
+bổ sung 1 số thông tin cho thẻ (config)
+vị trí đặt trong thẻ mở và thẻ đóng
+Mỗi loại thẻ sẽ có thuộc tính riêng
+1 thẻ có thể có nhiều thuộc tính cùng được định nghĩa khác nhau bởi dấu cách, trong thẻ ko được sử dụng trùng 1 thuộc tính

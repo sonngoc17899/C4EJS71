@@ -1,0 +1,65 @@
+body{
+    background-image: url('images/bg-pattern.jpg');
+}
+.content{
+    border: 1px solid black;
+    width: 70%;
+    height: 1000px;
+    margin: auto;
+    padding: 10px 12px;
+}
+.header-menu ul{
+    list-style-type: none;
+    list-style: none;
+    display: flex;
+    padding: 0%;
+}
+.header-menu ul li{
+    flex: 1;
+    text-align: center;
+}
+.header-menu ul li a{
+    color: white;
+    text-decoration: none; /* bo gach chan */
+    text-transform: uppercase; /* tat ca cac chu la in hoa */
+    font-weight: bold;
+    font-size: 20px;
+    background-color: blueviolet;
+    padding: 10px;
+    display: block; /* lam the phu kin li */
+}
+.header-menu ul li a:hover{
+    background-color: #2196f38a;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-menu ul li:not(.active) a:hover {
+    color: darkgray;
+    background-color: burlywood;
+}
+.header-menu ul li.active a{
+    background-color: darksalmon;
+    cursor: default;
+}
+.header-menu img{
+    border: 5px solid white;
+
+}
+.content-body h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.content-body p{
+    line-height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content-detail{
+    flex: none;
+}
+.content-detail-left{
+    flex: 3px;
+}
+.content-detail-righ{
+    flex: 1px;
+}
+

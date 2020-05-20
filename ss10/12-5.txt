@@ -18,3 +18,74 @@
 		</tr>
 	</tfoot>
 </table>
+cols pant = merge table
+
+CSS
+ dùng Style trong web (màu, font, cách thức, khoảng cách, hiệu ứng, kí hiệu)
+cú pháp 
+tên thuộc tính: giá trị;
+vd color: red; (màu chữ đỏ)
+background-color: green; (màu nền xanh)
+với người sử dụng
+- inline => nằm trong thuộc tính (style) của thẻ html
+- internal => nằm trong cặp thẻ (style) của html
+- external => nằm trong file Css riêng
+selector{
+	thuộc tính: giá trị;
+	thuộc tính: giá trị;
+} dùng với internal và external
+* toàn bộ thẻ html
+cứ pháp
+*{
+font-family
+margin: 0;
+padding: 0;
+}
+2. tên thẻ
+h1{
+	
+}
+3. tên class
+tieu-de{
+}
+#tenid thẻ có id đầu tiên trùng
+#sinhvien-n{
+}
+1 trang có thể nhiều thẻ trùng tên class
+định nghĩa nhiều class cùng 1 thẻ
+id 1 trang, mỗi id là duy nhất
+1 thẻ chỉ 1 id
+đối với tên class tên id
+tên class, id viết thường, ko chưa dấu cách
+các từ cách nhau bởi dấu -
+5. Mix
+tên thẻ.tên class{
+thẻ html có class tương ứng
+}
+h1.tieu-de{
+}
+tenthe#tenid
+-tenclass.tenclass{
+}
+6.
+slector1.selector2{
+}
+áp dụng cho selector2 mà là con của selector1
+7.
+selector1>selector2{
+}
+áp dụng cho selector 2 mà là con trực tiếp của selector.
+8. selector1, selector2{
+}
+áp dụng cho cả 2 
+9. hậu tố selector | hover di chuột vào
+		   | forcus con trỏ chuột đang ở input
+		   | active 
+		   | nth-child() áp dụng cho các phần tử con selector1: nth-child() lấy phần tử con đếm từ 1
+
+thẻ style đặt cuối thẻ head
+hiển thị hình ảnh 
+2 cách 
+thẻ img;
+css background-image:
+đường link

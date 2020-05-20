@@ -1,0 +1,19 @@
+truy vấn DOM
+4 cách
+lấy theo ID - HTML element - trả ra DOM - trả về thẻ HTML có ID đầu tiên
+lấy theo class - HTML element[] - trả ra mảng DOM []
+lấy theo name - HTML element[] - sử dụng thuộc tính name trong HTML
+lấy theo tag name - HTML element[] - trả về 1 mảng HTML có thên thẻ (HTML) thỏa mãn
+=> document.getElement...(tên)
+HTML stye, tên các thuộc tính, nội dung(inner HTML)
+
+Lấy dữ liệu từ trang thegioididong.com
+Chọn khoẳng 5 đt, lấy thông tin gồm:
+Tên - Hàng - Giá - Anh - Đường link đến chi tiết dt
+Hiện thị theo bảng danh sách đt này theo mẫu
+Mặc định
+Danh sách được sắp xếp theo tên
+Danh sách được sắp xếp theo hàng
+Danh sách được sắp xếp theo giá
+Danh sách được fitle theo 1 khoảng giá (vd: tự 10-20 triệu);
+Khi click vào đường link, mở ra tab mới đến trang chi tiết điện thoại

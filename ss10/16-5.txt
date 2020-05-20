@@ -1,0 +1,20 @@
+-Button 
+Narbar - thanh menu
+-Form!
+-Drop  list
+-Grid
+-Màu
+-Modal
+
+HTML Manipulations
+DOM Document object model
+Html	     js	    
+thẻ html nhìn từ JS => DOM
+DOM     class
+	Id
+	IntertHTML
+	OuterHTML
+	Style
+	atttribute
+
+
